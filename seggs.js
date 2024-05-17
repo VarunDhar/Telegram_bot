@@ -4,7 +4,7 @@ require('dotenv').config();
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.start((ctx)=>{
-    ctx.reply("Supp sex addict !😏");
+    ctx.reply("Supp ** addict !😏");
 });
 bot.command('hello',(ctx)=>{
     ctx.reply("Hey man, How's life 😁, keep ** pal.");
